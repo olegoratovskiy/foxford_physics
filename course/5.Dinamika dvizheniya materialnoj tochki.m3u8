@@ -1,0 +1,12 @@
+#EXTM3U
+## Generated with https://github.com/google/shaka-packager version v2.1.1-ce3e808-release
+
+#EXT-X-MEDIA:TYPE=AUDIO,URI="https://storage.netology-group.services/api/v1/buckets/hls.webinar.foxford.ru/sets/69977/objects/audio.32kbps.master.m3u8",GROUP-ID="audio",NAME="RUSSIAN",AUTOSELECT=YES,CHANNELS="2"
+#EXT-X-MEDIA:TYPE=AUDIO,URI="https://storage.netology-group.services/api/v1/buckets/hls.webinar.foxford.ru/sets/69977/objects/audio.128kbps.master.m3u8",GROUP-ID="audio",NAME="RUSSIAN",CHANNELS="2"
+
+#EXT-X-STREAM-INF:BANDWIDTH=502806,CODECS="avc1.64001f,mp4a.40.29",RESOLUTION=640x360,AUDIO="audio"
+https://storage.netology-group.services/api/v1/buckets/hls.webinar.foxford.ru/sets/69977/objects/video.360p.master.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=219302,CODECS="avc1.64001f,mp4a.40.29",RESOLUTION=256x144,AUDIO="audio"
+https://storage.netology-group.services/api/v1/buckets/hls.webinar.foxford.ru/sets/69977/objects/video.144p.master.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=1345798,CODECS="avc1.64001f,mp4a.40.29",RESOLUTION=1280x720,AUDIO="audio"
+https://storage.netology-group.services/api/v1/buckets/hls.webinar.foxford.ru/sets/69977/objects/video.720p.master.m3u8
