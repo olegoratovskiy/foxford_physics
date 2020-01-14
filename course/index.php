@@ -1,13 +1,12 @@
 <html>
 <?php
-$dir = "/mnt/c/users/Fox and Dragon/Desktop/foxford_courses/course/playlists";
+$dir = "./playlists";
 $files = scandir($dir);
 foreach ($files as $filename){
 	if ($filename=="." or $filename==".."){
 		continue;
 	}
-	print($filename);
-	print("<br>");
+	echo "<a href=\"/play.php?playlist=$filename\">$filename</a> <br>";
 }
 ?>
 </html>
